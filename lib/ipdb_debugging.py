@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import ipdb
+import ipdb; ipdb.set_trace()   
 
 def plus_two(num):
-    num + 2
-    ipdb.set_trace()
+    num = num + 2
+    
     return num
